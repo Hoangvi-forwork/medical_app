@@ -241,7 +241,7 @@ class _LandingScreenState extends State<LandingScreen> {
           ),
         ),
       ),
-      floatingActionButton: buildFloatingActionScrollButton(
+      floatingActionButton: BuildFloatingActionScrollButton(
         isVisibale: isVisibale,
         scrollController: scrollController,
       ),

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-
 import '../colors.dart';
 
-class buildFloatingActionScrollButton extends StatelessWidget {
-  const buildFloatingActionScrollButton({
+class BuildFloatingActionScrollButton extends StatelessWidget {
+  const BuildFloatingActionScrollButton({
     Key? key,
     required this.isVisibale,
     required this.scrollController,
